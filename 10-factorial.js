@@ -8,5 +8,5 @@ function factorial(n) {
 // Get the first argument and convert it to a number
 const num = Number(process.argv[2]);
 
-// Print the result in the format: "Factorial <result>"
-console.log("Factorial", factorial(num));
+
+console.log(factorial(num));
